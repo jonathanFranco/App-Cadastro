@@ -1,0 +1,26 @@
+{
+    "name": "resultsystems/laravel-cors",
+    "description": "Laravel cors",
+    "license": "MIT",
+    "authors": [{
+        "name": "Leandro Henrique Reis",
+        "email": "emtudo@gmail.com"
+    }],
+
+    "require": {
+        "php": ">=7.0.0"
+    },
+     "autoload": {
+        "psr-4": {
+            "ResultSystems\\Cors\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ResultSystems\\Cors\\CorsServiceProvider"
+            ]
+        }
+    }
+}
